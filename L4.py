@@ -33,7 +33,7 @@ for i in range(N):
 P = [np.mean(W_t[:,i]) for i in range(len(t))]
 plt.plot(t, P, lw=6, label='Valor esperado de 100 realizaciones')
 
-# Graficar el resultado teórico del valor esperado
+# Graficar el resultado teórico del valor esperado 
 E = 0*t
 plt.plot(t, E, '-.', lw=4, label='Valor esperado teórico')
 
