@@ -1,4 +1,4 @@
-# Se importa la librería NumPy. 
+# Se importa la librería NumPy.  
 import numpy as np
 
 # Se importa el módulo stats de SciPy.
